@@ -1,6 +1,9 @@
-# 挖矿奖励监控
+# ICC挖矿奖励监控
 
 一个简单的GUI应用程序，用于监控您在iccloud.io平台上的挖矿奖励。
+
+![image](https://github.com/user-attachments/assets/72d09533-b9b1-4f97-94ed-9aef8f9b094b)
+
 
 ## 功能特点
 
@@ -32,17 +35,21 @@ pip install requests
 1. 运行应用程序:
 
 ```
-python mining_monitor.py
+python ICC-Account-monitoring.py
 ```
 
 2. 添加账户:
    - 输入账户名称（任意名称）
    - 输入您的access token (从iccloud.io网站获取)
+
+![image](https://github.com/user-attachments/assets/ff80bf40-4b2d-4f82-921d-6a13de5fab7b)
+
+
    - 点击"保存账户"
 
-3. 账户数据将自动每分钟刷新一次，您也可以手动点击"刷新数据"按钮
+2. 账户数据将自动每分钟刷新一次，您也可以手动点击"刷新数据"按钮
 
-4. 查看单次奖励记录:
+3. 查看单次奖励记录:
    - 在主界面的账户表格中点击操作列的"查看奖励记录"按钮
    - 系统会弹出新窗口，展示该账户的所有单次挖矿奖励记录
 
